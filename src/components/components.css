@@ -1,0 +1,20 @@
+#board {
+  border: 1px solid #000;
+  display: inline-block;
+  width: 100%;
+}
+
+#container {
+  text-align: center;
+  margin: 10% 12.5%;
+}
+.tile {
+  float: left;
+  border: 1px solid #000;
+}
+
+.clearfix::after {
+  content: '';
+  display: block;
+  clear: both;
+}
